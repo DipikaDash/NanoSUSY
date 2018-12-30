@@ -67,7 +67,7 @@ cmsRun prod2017MC_NANO.py
 #### 2018 Sample
 ``` 
 cmsDriver.py prod2018MC -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAODSIM --filein /store/mc/RunIISpring18MiniAOD/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/100X_upgrade2018_realistic_v10_ext1-v1/20000/FE369B14-319B-E811-9281-001E67792488.root --no_exec --conditions auto:phase1_2018_realistic -n 100 --era Run2_2018,run2_nanoAOD_102Xv1
-
+`````
 
 ### Submit crab jobs
 ```tcsh
