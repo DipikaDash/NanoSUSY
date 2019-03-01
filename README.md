@@ -64,13 +64,9 @@ For 2017 MC, '/\*/RunIIFall17\*12Apr2018\*/MINIAODSIM'
 cmsDriver.py prod2017MC -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAODSIM --filein /store/user/benwu/Stop18/NtupleSyncMiniAOD/00257B91-1808-E811-BD39-0242AC130002.root --no_exec --conditions auto:phase1_2017_realistic -n 100 --era Run2_2017,run2_nanoAOD_94XMiniAODv1 --customise TopTagger/TopTagger/resolvedTagger_cff.customizeResolvedTaggerAllCanidiatesAndVariables --customise PhysicsTools/NanoSUSY/nanoSUSY_cff.nanoSUSY_customizeCommon
 cmsRun prod2017MC_NANO.py
 ```
-#### 2018 Sample
-``` 
-cmsDriver.py prod2018MC -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAODSIM --filein /store/mc/RunIISpring18MiniAOD/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/100X_upgrade2018_realistic_v10_ext1-v1/20000/FE369B14-319B-E811-9281-001E67792488.root --no_exec --conditions auto:phase1_2018_realistic -n 100 --era Run2_2018,run2_nanoAOD_102Xv1
+#### 2018 MC Sample
 ```
-### for MC
-```
-cmsDriver.py prod2016MC -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAODSIM --filein /store/mc/RunIISummer16MiniAODv3/TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v2/120000/1E4DDC30-2AEB-E811-BBB1-0CC47A5FA3BD.root --no_exec --conditions 94X_mcRun2_asymptotic_v3 -n 100 --era Run2_2016,run2_nanoAOD_94X2016 --customise TopTagger/TopTagger/resolvedTagger_cff.customizeResolvedTaggerAllCanidiatesAndVariables --customise PhysicsTools/NanoSUSY/nanoSUSY_cff.nanoSUSY_customizeCommon
+cmsDriver.py prod2018MC -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAODSIM --filein /store/mc/RunIIAutumn18MiniAOD/QCD_Pt-15to7000_TuneCP5_Flat2018_13TeV_pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15_ext1-v1/110000/08FB2BDC-8066-BB46-B6CC-0CC245064849.root --no_exec --conditions auto:phase1_2018_realistic -n 100 --era Run2_2018,run2_nanoAOD_102Xv1 --customise TopTagger/TopTagger/resolvedTagger_cff.customizeResolvedTaggerAllCanidiatesAndVariables --customise PhysicsTools/NanoSUSY/nanoSUSY_cff.nanoSUSY_customizeCommon
 ```
 ### for data
 ```
