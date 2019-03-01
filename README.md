@@ -67,7 +67,15 @@ cmsRun prod2017MC_NANO.py
 #### 2018 Sample
 ``` 
 cmsDriver.py prod2018MC -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAODSIM --filein /store/mc/RunIISpring18MiniAOD/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/100X_upgrade2018_realistic_v10_ext1-v1/20000/FE369B14-319B-E811-9281-001E67792488.root --no_exec --conditions auto:phase1_2018_realistic -n 100 --era Run2_2018,run2_nanoAOD_102Xv1
-`````
+```
+### for MC
+```
+cmsDriver.py prod2016MC_v3 -s NANO --data --eventcontent NANOAODSIM --datatier NANOAODSIM --filein /store/data/Run2016C/SingleMuon/MINIAOD/17Jul2018-v1/20000/0A368F04-7996-E811-A221-34E6D7E05F28.root  --no_exec --conditions 94X_dataRun2_v10 -n 100 --era Run2_2016,run2_nanoAOD_94X2016 --customise TopTagger/TopTagger/resolvedTagger_cff.customizeResolvedTagger --customise PhysicsTools/NanoSUSY/nanoSUSY_cff.nanoSUSY_customizeCommon
+```
+### for data
+```
+cmsDriver.py prod2016DATA_v3 -s NANO --data --eventcontent NANOAODSIM --datatier NANOAODSIM --filein /store/data/Run2016C/SingleMuon/MINIAOD/17Jul2018-v1/20000/0A368F04-7996-E811-A221-34E6D7E05F28.root  --no_exec --conditions 94X_dataRun2_v10 -n 100 --era Run2_2016,run2_nanoAOD_94X2016 --customise TopTagger/TopTagger/resolvedTagger_cff.customizeResolvedTagger --customise PhysicsTools/NanoSUSY/nanoSUSY_cff.nanoSUSY_customizeCommon
+```
 
 ### Submit crab jobs
 ```tcsh
