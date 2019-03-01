@@ -70,7 +70,7 @@ cmsDriver.py prod2018MC -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAO
 ```
 ### for MC
 ```
-cmsDriver.py prod2016MC_v3 -s NANO --data --eventcontent NANOAODSIM --datatier NANOAODSIM --filein /store/data/Run2016C/SingleMuon/MINIAOD/17Jul2018-v1/20000/0A368F04-7996-E811-A221-34E6D7E05F28.root  --no_exec --conditions 94X_dataRun2_v10 -n 100 --era Run2_2016,run2_nanoAOD_94X2016 --customise TopTagger/TopTagger/resolvedTagger_cff.customizeResolvedTagger --customise PhysicsTools/NanoSUSY/nanoSUSY_cff.nanoSUSY_customizeCommon
+cmsDriver.py prod2016MC -s NANO --mc --eventcontent NANOAODSIM --datatier NANOAODSIM --filein /store/mc/RunIISummer16MiniAODv3/TTJets_SingleLeptFromT_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUMoriond17_94X_mcRun2_asymptotic_v3_ext1-v2/120000/1E4DDC30-2AEB-E811-BBB1-0CC47A5FA3BD.root --no_exec --conditions 94X_mcRun2_asymptotic_v3 -n 100 --era Run2_2016,run2_nanoAOD_94X2016 --customise TopTagger/TopTagger/resolvedTagger_cff.customizeResolvedTaggerAllCanidiatesAndVariables --customise PhysicsTools/NanoSUSY/nanoSUSY_cff.nanoSUSY_customizeCommon
 ```
 ### for data
 ```
